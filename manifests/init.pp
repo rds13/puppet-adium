@@ -4,11 +4,11 @@
 #
 #  include adium
 #
-class adium($version='1.5.10') {
+class adium($version='1.5.10.2') {
 
   package { "Adium-${version}":
     provider => 'appdmg',
-    source   => "http://download.adium.im/Adium_${version}.dmg",
+    source   => "https://adiumx.cachefly.net/Adium_${version}.dmg",
   }
 
 }
